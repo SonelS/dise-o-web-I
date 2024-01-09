@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+header{
+    background-color: blueviolet;
+    color: azure;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 0;
+}
+nav ul  li a{
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+}
+main{
+    padding: 2rem;
+    background-color: cornflowerblue;
+}
+.presentacion{
+    background-color: rgb(206, 204, 245);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px 0;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, 0.2);
+}
+.Servicios, .Productos{
+    background-color: blue;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px 0;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, 0.2);
+}
+.Servicios ul, .Productos ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Servicion ul li, .Productos{
+    margin-bottom: 1rem;
+}
+footer{
+    background-color: black;
+    color: azure;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+
