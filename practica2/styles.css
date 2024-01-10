@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 1rem;
+    color: aliceblue;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 15px;
+}
+nav ul  li a{
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+}
+main{
+    overflow: hidden;
+    padding: 2rem;
+    background-color: rgb(241, 181, 16);
+}
+.Importadora{
+    background-color: rgb(4, 4, 4);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px ;
+    color: aliceblue;
+    
+}
+.Sucursales, .Productos{
+    background-color: rgb(234, 234, 234);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, 0.2);
+}
+.Sucursales h2 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+.Productos h2{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+footer{
+    background-color: black;
+    padding: 1rem;
+    color: aliceblue;
+    font-size: small;
+    
+}footer p{
+    display: inline;
+    padding-inline: 30px;
+}
+
+
+
