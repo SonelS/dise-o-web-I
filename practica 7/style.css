@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(169, 169, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+.headerPrincipal{
+    background-color: rgb(60, 60, 249);
+    padding: 30px;
+}
+.headerPrincipal .container h1 a{ 
+    text-decoration: none;
+    color: azure;   
+    font-weight: bold;
+	font-size: 4em;
+	margin-bottom: 20px;
+}
+.headerPrincipal-nav-link {
+    background-color: aqua;
+	padding: 10px;
+	color: rgb(60, 60, 249);
+    border-radius: 30px;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    font-size: 2em ;
+    font-weight: bold;
+}
+.contenidoPrincipal {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.subtitulo{
+    color: aliceblue;
+    font-size: 5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenidoPrincipal-productos-link {
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}

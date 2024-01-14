@@ -21,6 +21,7 @@ nav ul  li a{
     color: azure;
     text-decoration: none;
     padding: 10px;
+    font-size: 20px;
 }
 main{
     overflow: hidden;
