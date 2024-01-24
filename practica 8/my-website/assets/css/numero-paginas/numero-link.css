@@ -1,0 +1,23 @@
+.numero__link{
+  
+  color: rgb(255, 255, 255);
+  margin-top: 5rem;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 3rem
+
+}
+.numero__link:hover{
+  color: blue;
+  font-weight: bold;
+}
+@media screen and(min-width:0) {
+  .numero__link{
+    padding: 5rem 0 0 1rem;
+  }
+}
+@media screen and(min-width:750px) {
+  .numero__link{
+    padding: 5rem 0 0 2rem;
+  }
+}

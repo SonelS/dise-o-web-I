@@ -1,0 +1,11 @@
+.product {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #ffffffc5;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  width: 300px;
+}

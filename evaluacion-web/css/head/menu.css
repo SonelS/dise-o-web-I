@@ -1,0 +1,11 @@
+.menu{
+    align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}

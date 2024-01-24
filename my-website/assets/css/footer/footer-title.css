@@ -1,0 +1,8 @@
+.footer__title{
+    display: flex;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: size 1.7rem;
+    align-items: center;
+    padding: 1.2rem;
+}

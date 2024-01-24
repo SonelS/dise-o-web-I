@@ -1,0 +1,16 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+@media screen and(min-width:0) {
+  .products{
+    padding: 5rem 0 0 1rem;
+  }
+}
+@media screen and(min-width:750px) {
+  .products{
+    padding: 5rem 0 0 2rem;
+  }
+}

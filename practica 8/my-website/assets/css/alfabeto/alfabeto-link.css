@@ -1,0 +1,25 @@
+.alfabeto__link{
+  
+  color: rgb(255, 255, 255);
+  margin-top: 5rem;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 3rem
+
+}
+.alfabeto__link:hover{
+  color: blue;
+  font-weight: bold;
+}
+@media screen and(min-width:0) {
+  .alfabeto__link{
+    padding: 5rem 0 0 1rem;
+    display: flex;
+    
+  }
+}
+@media screen and(min-width:750px) {
+  .alfabeto__link{
+    padding: 5rem 0 0 2rem;
+  }
+}

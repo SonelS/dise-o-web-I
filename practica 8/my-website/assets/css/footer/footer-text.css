@@ -1,0 +1,7 @@
+.footer__text{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2rem;
+    margin-left: 50%;
+}

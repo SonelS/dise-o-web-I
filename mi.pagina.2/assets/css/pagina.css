@@ -1,0 +1,39 @@
+.pagina{
+    display: flex;
+    flex-direction: column;
+    color: rgb(217, 255, 0);
+    align-items: center;
+    background-color: black;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+.pagina__titulo{
+    font-family: montserrat;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+}
+.pagina__desc{
+    font-family: montserrat;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem; 
+    margin: 0 auto 2.5rem;
+}
+.pagina__boton{
+    text-align: center;
+    width: 50%;
+    padding: 1rem;
+    border: 3px solid #812121;
+    border-radius: 0 50px;
+}
+@media screen and (min-width:750px) {
+    .pagina{
+        background-image: url('../img/animes\ portada.jpg');
+        background-size: cover;
+        padding-top: 8rem;
+    }
+}
