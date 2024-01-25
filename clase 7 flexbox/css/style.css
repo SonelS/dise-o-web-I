@@ -15,7 +15,7 @@ body {
 
 .headerPrincipal-titulo {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 2rem;
 	margin-bottom: 20px;
 }
 
@@ -34,6 +34,10 @@ body {
 	display: block;
 
 	border-bottom: 1px solid #9799A6;
+}
+.headerPrincipal-nav-link:hover{
+	color: #0eff01;
+	
 }
 
 .contenidoPrincipal {

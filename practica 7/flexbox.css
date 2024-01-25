@@ -3,3 +3,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.headerPrincipal-nav{
+    display: flex;
+}
+.contenidoPrincipal-productos{
+    display: flex;
+    flex-direction: column;}

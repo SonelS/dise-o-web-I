@@ -12,22 +12,27 @@ body{
 }
 .headerPrincipal .container h1 a{ 
     text-decoration: none;
-    color: azure;   
+    color: rgb(255, 255, 255);   
     font-weight: bold;
 	font-size: 4em;
 	margin-bottom: 20px;
 }
 .headerPrincipal-nav-link {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 	padding: 10px;
 	color: rgb(60, 60, 249);
-    border-radius: 30px;
-	text-decoration: none;
+    border-radius: 10px;
+	text-decoration:none;
 	transition: .5s;
 	display: block;
-    font-size: 2em ;
+    font-size: 2rem ;
     font-weight: bold;
+	margin-left: 20px;	
 }
+.headerPrincipal-nav-link:hover{
+	color: rgb(255, 1, 1);
+}
+
 .contenidoPrincipal {
 	margin-top: 40px;
 	margin-bottom: 20px;
@@ -46,4 +51,8 @@ body{
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
+}
+.headerPrincipal-nav{
+	
+	
 }
