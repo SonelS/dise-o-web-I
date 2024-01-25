@@ -1,0 +1,24 @@
+.container__imagenes{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.card__producto{
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+
+    border: 1px solid black;
+}
+.contenido__card{
+    background-color: #016A70;
+    color: white;
+  padding: 2rem;
+}
+.card__fig{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
