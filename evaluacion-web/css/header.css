@@ -1,4 +1,10 @@
 .header{
     background-color: #016A70;  
+    align-items: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
     
 }

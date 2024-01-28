@@ -5,9 +5,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   border-radius: 15px;
-  width: 80%;
   justify-content: space-between;
-  position: relative;
-  
-  
+  flex-direction: row;
+  margin-left: 5%;
 }

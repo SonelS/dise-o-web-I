@@ -1,3 +1,22 @@
 .footer_menu{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../imagenes/olas\ verdes.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    padding-top: 300px;
+}
+.direccion{
+    padding-left: 50px;
+    color: white;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+.espaciado__tabla, tr, th, td{
+    padding: 1rem;
+    text-align: left;
+    color: white;
 }

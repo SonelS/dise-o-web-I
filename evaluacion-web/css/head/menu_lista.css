@@ -1,5 +1,9 @@
 .menu_lista{
    display: flex; 
    justify-content: flex-end;
+   flex-wrap: wrap;
    
+}
+.main{
+   flex-wrap: wrap;
 }

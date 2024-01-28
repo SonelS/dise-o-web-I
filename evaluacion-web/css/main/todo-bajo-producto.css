@@ -1,0 +1,50 @@
+.container__letras{
+    width: 70%;
+    display: flex;justify-content: space-between;
+    padding: 0;
+    margin: 3rem auto;
+}
+.container__fondo_letras{
+    background-image: url(../../imagenes/fondo\ de\ texto.png);
+    width: 1200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 500px;
+}
+.contenido__letras{
+    width: 500px;
+    border: 1px solid rgb(212, 250, 252);
+    color: black;
+    background-color: #fff;
+    margin-top: 0;
+    padding: 2rem;
+    position: relative;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 2px 2px 0 0;
+}
+.testimonial{
+    justify-content: center;
+    padding: 5rem;
+}
+.logos_abajo_main{
+    margin-left: 33%;
+    width: 33%;
+    padding: 2rem;
+}
+.maps{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 4rem;
+}
+.parrafo__maps{
+    padding-top: 12rem;
+    margin-bottom: 0;
+    align-items: end;
+    justify-content: end;
+    padding-left: 4rem;
+}
