@@ -1,8 +1,11 @@
 .container__letras{
     width: 70%;
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     padding: 0;
     margin: 3rem auto;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .container__fondo_letras{
     background-image: url(../../imagenes/fondo\ de\ texto.png);
@@ -37,9 +40,9 @@
     display: flex;
     width: 70%;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
     padding: 4rem;
+
 }
 .parrafo__maps{
     padding-top: 12rem;

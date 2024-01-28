@@ -1,7 +1,9 @@
 .numeros{
-    display: flex;width: 50%;
+    display: flex;
+    width: 50%;
     justify-content: space-between;
     font-size: 30px;
     align-content: center;
     margin: 2rem auto;
+    flex-wrap: wrap;
 }
